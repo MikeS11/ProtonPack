@@ -12,3 +12,5 @@ Requirements
 1 - Pack of neopixels or equivalent ( Cyclotron, vent and wand LEDs)
 1 - LED strip (Powercell)
 1 - Adafruit Pixie or other RGB 3W LED
+
+
