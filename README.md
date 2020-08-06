@@ -5,7 +5,7 @@ I want this to be a source for anyone to use to create their own proton pack kit
 
 Requirements  
 1 - Arduino Nano    
-1 - DFPlayer Mini (Be aware that some of the knock offs do not perform correctly)  
+1 - DFPlayer Mini (Be aware that some of the knock offs do not perform correctly, reference to the busy pin may not work)  
 1 - Any amplifing circuit (Currently testing an Adafruit Stereo 20W Class D Audio Amplifier - MAX9744)  
 1 - LED Matrix Driver (for the bar graph)  
 1 - 28 segment bargraph (barmeter.com, ebay is your best option)  
