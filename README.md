@@ -11,10 +11,10 @@
 <br />
 <p align="center">
   <a href="https://github.com/MikeS11/ProtonPack">
-    <img src="Images/MikeS11_Logo.jpg?raw=true" alt="Logo" width="80" height="80">
+    <img src="Images/MikeS11_Logo.jpg?raw=true" alt="Logo" width="120" height="120">
   </a>
 
-  <h3 align="center">YOUR_TITLE</h3>
+  <h3 align="center">GhostKitty Proton Pack</h3>
 
   <p align="center">
     # ProtonPack
