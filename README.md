@@ -17,7 +17,7 @@
   <h3 align="center">GhostKitty Proton Pack</h3>
 
   <p align="center">
-    # ProtonPack
+  This Readme is currently a work in progress. # ProtonPack
 Arduino proton pack source code, schematics, design. 
 
 I want this to be a source for anyone to use to create their own proton pack kits for as cheap as possible and still include all the features for a rumble motor, 2 firing mechanisms, pack themes, full 28 segment bar graph, and an output for a vent kit.
