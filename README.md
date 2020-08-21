@@ -33,14 +33,14 @@ Requirements
 1 - Adafruit Jewel - Wand Tip (WAs looking at the Pixie but there is a concern of its overhead requirements when working with normal WS2812B's, and they can not be chained together with WS2812B's) 
 Pack of 24 awg stranded cable
     <br />
-    <a href="https://github.com/github_username/repo"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/MikeS11/ProtonPack"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo">View Demo</a>
+    <a href="https://github.com/MikeS11/ProtonPack">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo/issues">Report Bug</a>
+    <a href="https://github.com/MikeS11/ProtonPack/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo/issues">Request Feature</a>
+    <a href="https://github.com/MikeS11/ProtonPack/issues">Request Feature</a>
   </p>
 </p>
 
@@ -174,8 +174,8 @@ Project Link: [https://github.com/github_username/repo](https://github.com/githu
 [issues-shield]: https://img.shields.io/github/issues/MikeS11/ProtonPack.svg?style=flat-square
 [issues-url]: https://github.com/MikeS11/ProtonPack/issues
 [license-shield]: https://img.shields.io/github/license/MikeS11/ProtonPack.svg?style=flat-square
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/mikesimone3
+[license-url]: https://github.com/MikeS11/ProtonPack/blob/master/LICENSE.txt
+[twitter-shield]: https://img.shields.io/badge/-Twitter-black.svg?style=flat-square&logo=Twitter&colorB=555
+[twitter-url]: https://Twitter.com/mikesimone3
 [product-screenshot]: images/screenshot.png
 
