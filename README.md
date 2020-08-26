@@ -28,9 +28,6 @@ Arduino proton pack source code, schematics, design.
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
-* [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
@@ -53,29 +50,29 @@ I want this to be a source for anyone to use to create their own proton pack kit
 
 ### Built With the following:
 
-* []() 1 - Arduino Nano    
-* []() 1 - DFPlayer Mini (Be aware that some of the knock offs do not perform correctly, reference to the busy pin may not work)  
-* []() 1 - Any amplifing circuit (Currently testing an Adafruit Stereo 20W Class D Audio Amplifier - MAX9744)  
-* []() 1 - LED Matrix Driver - HT16K33 Breakout (for the bar graph)  
-* []() 1 - 28 segment bargraph (barmeter.com, ebay is your best option)  
-* []() 1 - Pack of neopixels or equivalent WS2812B ( Cyclotron, vent and wand LEDs)  
-* []() 1 - LED strip (Powercell)  
-* []() 1 - Adafruit Jewel - Wand Tip (WAs looking at the Pixie but there is a concern of its overhead requirements when working with normal WS2812B's, and they can not be chained together with WS2812B's) 
-* []() Pack of 24 awg stranded cable
+* []() 1 - Arduino Nano (Amazon)  
+* []() 1 - DFPlayer Mini (Be aware that some of the knock offs do not perform correctly, reference to the busy pin may not work) (Digikey Only)
+* []() 1 - Any amplifing circuit (Currently testing an Adafruit Stereo 20W Class D Audio Amplifier - MAX9744)  (Amazon, Digikey)
+* []() 1 - LED Matrix Driver - HT16K33 Breakout (for the bar graph) (Amazon, Digikey)
+* []() 1 - 28 segment bargraph (barmeter.com, ebay is your best option)
+* []() 1 - Pack of neopixels or equivalent WS2812B ( Cyclotron, vent and wand LEDs) (Amazon)
+* []() 1 - LED strip (Powercell)  (Amazon)
+* []() 1 - Adafruit Jewel - Wand Tip (WAs looking at the Pixie but there is a concern of its overhead requirements when working with normal WS2812B's, and they can not be chained together with WS2812B's) (Amazon, Digikey)
+* []() Pack of 24 awg stranded cable (Amazon)
 
 
 ### Prerequisites
 
 You are going to need to install the following libraries:
 
-For the Audio DFPlayer Player:
+**For the Audio DFPlayer Player:**
 * []() SoftwareSerial.h
 * []() DFPlayerMini_Fast.h
 
-For the WS2812B / NeoPixel LEDs
+**For the WS2812B / NeoPixel LEDs**
 * []() Adafruit_NeoPixel.h
 
-Custom Libraries for the Powercell / Cyclotron / Bargraph Animiations
+**Custom Libraries for the Powercell / Cyclotron / Bargraph Animiations**
 * []() GBLEDPatterns.h
 * []() BGSequence.h
 
