@@ -24,10 +24,9 @@ Arduino proton pack source code, schematics, design.
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-  * [Built With](#built-with)
+  * [Built With](#Build-Requirements)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
 * [License](#license)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
@@ -47,8 +46,9 @@ I want this to be a source for anyone to use to create their own proton pack kit
 * []() Christmas!
 * []() *Future* Halloween
 
+### Getting Started
 
-### Built With the following:
+### Build Requirements:
 
 * []() 1 - Arduino Nano (Amazon)  
 * []() 1 - DFPlayer Mini (Be aware that some of the knock offs do not perform correctly, reference to the busy pin may not work) (Digikey Only)
@@ -59,7 +59,6 @@ I want this to be a source for anyone to use to create their own proton pack kit
 * []() 1 - LED strip (Powercell)  (Amazon)
 * []() 1 - Adafruit Jewel - Wand Tip (WAs looking at the Pixie but there is a concern of its overhead requirements when working with normal WS2812B's, and they can not be chained together with WS2812B's) (Amazon, Digikey)
 * []() Pack of 24 awg stranded cable (Amazon)
-
 
 ### Prerequisites
 
