@@ -23,15 +23,7 @@ Arduino proton pack source code, schematics, design.
 I want this to be a source for anyone to use to create their own proton pack kits for as cheap as possible and still include all the features for a rumble motor, 2 firing mechanisms, pack themes, full 28 segment bar graph, and an output for a vent kit.
 
 Requirements  
-1 - Arduino Nano    
-1 - DFPlayer Mini (Be aware that some of the knock offs do not perform correctly, reference to the busy pin may not work)  
-1 - Any amplifing circuit (Currently testing an Adafruit Stereo 20W Class D Audio Amplifier - MAX9744)  
-1 - LED Matrix Driver - HT16K33 Breakout (for the bar graph)  
-1 - 28 segment bargraph (barmeter.com, ebay is your best option)  
-1 - Pack of neopixels or equivalent WS2812B ( Cyclotron, vent and wand LEDs)  
-1 - LED strip (Powercell)  
-1 - Adafruit Jewel - Wand Tip (WAs looking at the Pixie but there is a concern of its overhead requirements when working with normal WS2812B's, and they can not be chained together with WS2812B's) 
-Pack of 24 awg stranded cable
+
     <br />
     <a href="https://github.com/MikeS11/ProtonPack"><strong>Explore the docs »</strong></a>
     <br />
@@ -73,12 +65,17 @@ Here's a blank template to get started:
 `github_username`, `repo`, `twitter_handle`, `email`
 
 
-### Built With
+### Built With the following:
 
-* []() Test 2
-* []() Test 3
-* []()
-
+* []() 1 - Arduino Nano    
+* []() 1 - DFPlayer Mini (Be aware that some of the knock offs do not perform correctly, reference to the busy pin may not work)  
+* []() 1 - Any amplifing circuit (Currently testing an Adafruit Stereo 20W Class D Audio Amplifier - MAX9744)  
+* []() 1 - LED Matrix Driver - HT16K33 Breakout (for the bar graph)  
+* []() 1 - 28 segment bargraph (barmeter.com, ebay is your best option)  
+* []() 1 - Pack of neopixels or equivalent WS2812B ( Cyclotron, vent and wand LEDs)  
+* []() 1 - LED strip (Powercell)  
+* []() 1 - Adafruit Jewel - Wand Tip (WAs looking at the Pixie but there is a concern of its overhead requirements when working with normal WS2812B's, and they can not be chained together with WS2812B's) 
+* []() Pack of 24 awg stranded cable
 
 
 <!-- GETTING STARTED -->
@@ -88,24 +85,22 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+You are going to need to install the following libraries:
+
+For the Audio DFPlayer Player:
+* []() SoftwareSerial.h
+* []() DFPlayerMini_Fast.h
+
+For the WS2812B / NeoPixel LEDs
+* []() Adafruit_NeoPixel.h
+
+Custom Libraries for the Powercell / Cyclotron / Bargraph Animiations
+* []() GBLEDPatterns.h
+* []() BGSequence.h
 * npm
 ```sh
 npm install npm@latest -g
 ```
-
-### Installation
- 
-1. Clone the repo
-```sh
-git clone https://github.com/github_username/repo.git
-```
-2. Install NPM packages
-```sh
-npm install
-```
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -146,16 +141,16 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Mike Simone - [@mikesimone3](https://twitter.com/mikesimone3) 
 
-Project Link: [https://github.com/github_username/repo](https://github.com/github_username/repo)
+Project Link: [https://github.com/MikeS11/ProtonPack](https://github.com/MikeS11/ProtonPack)
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
+* []() Eric Banker for the for the wonder work completed on his Arduino project. (a couple of his functions are referenced in this project) 
 * []()
 * []()
 
