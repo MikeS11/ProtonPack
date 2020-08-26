@@ -20,24 +20,6 @@
   This Readme is currently a work in progress. # ProtonPack
 Arduino proton pack source code, schematics, design. 
 
-I want this to be a source for anyone to use to create their own proton pack kits for as cheap as possible and still include all the features for a rumble motor, 2 firing mechanisms, pack themes, full 28 segment bar graph, and an output for a vent kit.
-
-Requirements  
-
-    <br />
-    <a href="https://github.com/MikeS11/ProtonPack"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/MikeS11/ProtonPack">View Demo</a>
-    ·
-    <a href="https://github.com/MikeS11/ProtonPack/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/MikeS11/ProtonPack/issues">Request Feature</a>
-  </p>
-</p>
-
-
-
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
@@ -53,16 +35,20 @@ Requirements
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo`, `twitter_handle`, `email`
+I want this to be a source for anyone to use to create their own proton pack kits for as cheap as possible and still include all the features for a rumble motor, 2 firing mechanisms, all functioning LEDs in the wand, pack themes, full 28 segment bar graph, and an output for a vent kit.
+
+**Current Themes for the pack:**
+* []() Movie
+* []() Stasis
+* []() Slime
+* []() Meson
+* []() Christmas!
+* []() *Future* Halloween
 
 
 ### Built With the following:
@@ -78,11 +64,6 @@ Here's a blank template to get started:
 * []() Pack of 24 awg stranded cable
 
 
-<!-- GETTING STARTED -->
-## Getting Started
-
-To get a local copy up and running follow these simple steps.
-
 ### Prerequisites
 
 You are going to need to install the following libraries:
@@ -97,26 +78,6 @@ For the WS2812B / NeoPixel LEDs
 Custom Libraries for the Powercell / Cyclotron / Bargraph Animiations
 * []() GBLEDPatterns.h
 * []() BGSequence.h
-* npm
-```sh
-npm install npm@latest -g
-```
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/github_username/repo/issues) for a list of proposed features (and known issues).
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -128,7 +89,6 @@ Contributions are what make the open source community such an amazing place to b
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
 
 
 <!-- LICENSE -->
@@ -153,8 +113,6 @@ Project Link: [https://github.com/MikeS11/ProtonPack](https://github.com/MikeS11
 * []() Eric Banker for the for the wonder work completed on his Arduino project. (a couple of his functions are referenced in this project) 
 * []()
 * []()
-
-
 
 
 
