@@ -34,7 +34,7 @@ Arduino proton pack source code, schematics, design.
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Work in Progress][product-screenshot]](https://www.youtube.com/watch?v=BobsRyuIN9g)
 
 I want this to be a source for anyone to use to create their own proton pack kits for as cheap as possible and still include all the features for a rumble motor, 2 firing mechanisms, all functioning LEDs in the wand, pack themes, full 28 segment bar graph, and an output for a vent kit.
 
