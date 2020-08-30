@@ -27,6 +27,7 @@ Arduino proton pack source code, schematics, design.
   * [Built With](#Build-Requirements)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
+  * [Wand Configuration](#wand-configuration)  
 * [License](#license)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
@@ -78,6 +79,11 @@ You are going to need to install the following libraries:
 **Custom Libraries for the Powercell / Cyclotron / Bargraph Animiations**
 * []() GBLEDPatterns.h
 * []() BGSequence.h
+
+### Wand Configuration
+
+<p align="center">
+<img src="Images/WandLEDs.jpg?raw=true" alt="Wand LEDs"></p>
 
 <!-- CONTRIBUTING -->
 ## Contributing
