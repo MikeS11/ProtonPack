@@ -84,7 +84,8 @@ You are going to need to install the following libraries:
 
 <p align="center">
 <img src="Images/WandLEDs.jpg?raw=true" alt="Wand LEDs"></p>
-
+<p align="center">
+<img src="Images/WandSwitches.jpg?raw=true" alt="Wand Switches"></p>
 <!-- CONTRIBUTING -->
 ## Contributing
 
