@@ -11,7 +11,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/MikeS11/ProtonPack">
-    <img src="Images/MikeS11_Logo.jpg?raw=true" alt="Logo" width="200" height="200">
+    <img src="Images/MikeS11_Logo.jpg?raw=true" alt="Logo" width="240" height="200">
   </a>
 
   <h3 align="center">GhostKitty Proton Pack</h3>
