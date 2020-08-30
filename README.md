@@ -34,10 +34,9 @@ Arduino proton pack source code, schematics, design.
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![GhostKitty Proton Pack](http://img.youtube.com/vi/BobsRyuIN9g/0.jpg)](https://www.youtube.com/watch?v=BobsRyuIN9g-Y?t=35s "GhostKitty Proton Pack")
-
-
-[![Work in Progress](http://img.youtube.com/vi/BobsRyuIN9g/0.jpg)](https://www.youtube.com/watch?v=BobsRyuIN9g)
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=BobsRyuIN9g"><img src="http://img.youtube.com/vi/BobsRyuIN9g/0.jpg" alt="GhostKitty Proton Pack"></a>
+</div>
 
 <p align="center">
 <img src="Images/ArduinoPrototype.jpg?raw=true" alt="Prototype" width="640" height="480"></p>
