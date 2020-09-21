@@ -62,7 +62,7 @@ I want this to be a source for anyone to use to create their own proton pack kit
 * []() 1 - Pack of neopixels or equivalent WS2812B ( Vent and wand LEDs) (Amazon)
 * []() 1 - LED strip (Powercell)  (Amazon)
 * []() 1 - Adafruit Jewel - Wand Tip (WAs looking at the Pixie but there is a concern of its overhead requirements when working with normal WS2812B's, and they can not be chained together with WS2812B's) (Amazon, Digikey)
-* []() Pack of 24 awg stranded cable (Amazon)
+* []() Pack of 24 awg stranded cable (Amazon) - To keep things clean you might want to look at ribbon cables or multi conductor cables. 
 
 ### Prerequisites
 
