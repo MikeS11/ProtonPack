@@ -80,7 +80,8 @@ You are going to need to install the following libraries:
 * []() BGSequence.h
 
 **Sound Files for the DFPlayer or Alternative Player**
-  <a href="https://mega.nz/file/R5sWzCha#zm4DIskyvmF08JNp8MnOAEqCDmNe2MSCN6wtFMExKlU">Here are some Sound files I found online or mixed myself</a>
+
+<a href="https://mega.nz/file/R5sWzCha#zm4DIskyvmF08JNp8MnOAEqCDmNe2MSCN6wtFMExKlU">Here are some Sound files I found online or mixed myself</a>
 
 
 ### Wand Configuration
