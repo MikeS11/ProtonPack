@@ -17,7 +17,7 @@
   <h3 align="center">GhostKitty Proton Pack</h3>
 
   <p align="center">
-  This is my contribution to the GB community. I wanted a bit more out of the existing Arduino projects that added a bit more move / game accuracy.
+  This is my contribution to the GB community. I wanted a bit more out of the existing Arduino projects and to add a bit more move / game accuracy.
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
