@@ -17,8 +17,7 @@
   <h3 align="center">GhostKitty Proton Pack</h3>
 
   <p align="center">
-  This Readme is currently a work in progress. # ProtonPack
-Arduino proton pack source code, schematics, design. 
+  This is my contribution to the GB community. This project adds a bit more movie / game accuracy but also a little fun :)
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
@@ -36,7 +35,7 @@ Arduino proton pack source code, schematics, design.
 ## About The Project
 
 <div align="center">
-  <a href="https://www.youtube.com/watch?v=BobsRyuIN9g"><img src="http://img.youtube.com/vi/BobsRyuIN9g/0.jpg" alt="GhostKitty Proton Pack"></a>
+  <a href="https://www.youtube.com/watch?v=ds1rXlsiT8U"><img src="http://img.youtube.com/vi/ds1rXlsiT8U/0.jpg" alt="GhostKitty Proton Pack"></a>
 </div>
 
 <p align="center">
@@ -77,7 +76,7 @@ You are going to need to install the following libraries:
 * []() Adafruit_NeoPixel.h
 
 **Custom Libraries for the Powercell / Cyclotron / Bargraph Animiations**
-* []() GBLEDPatterns.h
+* []() GBLEDPatternsJewel.h
 * []() BGSequence.h
 
 ### Wand Configuration
