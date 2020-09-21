@@ -77,7 +77,7 @@ You are going to need to install the following libraries:
 * []() Adafruit_NeoPixel.h
 
 **Custom Libraries for the Powercell / Cyclotron / Bargraph Animiations**
-* []() GBLEDPatterns.h
+* []() GBLEDPatternsJewel.h
 * []() BGSequence.h
 
 ### Wand Configuration
