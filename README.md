@@ -59,10 +59,10 @@ I want this to be a source for anyone to use to create their own proton pack kit
 * []() 1 - Any amplifing circuit (Currently testing an Adafruit Stereo 20W Class D Audio Amplifier - MAX9744)  (Amazon, Digikey)
 * []() 1 - LED Matrix Driver - HT16K33 Breakout (for the bar graph) (Amazon, Digikey)
 * []() 1 - 28 segment bargraph (barmeter.com, ebay is your best option)
-* []() 1 - Pack of neopixels or equivalent WS2812B ( Cyclotron, vent and wand LEDs) (Amazon)
+* []() 1 - Pack of neopixels or equivalent WS2812B ( Vent and wand LEDs) (Amazon)
 * []() 1 - LED strip (Powercell)  (Amazon)
 * []() 1 - Adafruit Jewel - Wand Tip (WAs looking at the Pixie but there is a concern of its overhead requirements when working with normal WS2812B's, and they can not be chained together with WS2812B's) (Amazon, Digikey)
-* []() Pack of 24 awg stranded cable (Amazon)
+* []() Pack of 24 awg stranded cable (Amazon) - To keep things clean you might want to look at ribbon cables or multi conductor cables. 
 
 ### Prerequisites
 
