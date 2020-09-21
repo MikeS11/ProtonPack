@@ -17,7 +17,7 @@
   <h3 align="center">GhostKitty Proton Pack</h3>
 
   <p align="center">
-  This is my contribution to the GB community. This project adds a bit more movie / game accuracy but also add a little fun :)
+  This is my contribution to the GB community. This project adds a bit more movie / game accuracy but also a little fun :)
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
