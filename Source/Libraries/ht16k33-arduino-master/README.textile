@@ -1,0 +1,95 @@
+h1. HT16K33 Library for Arduino
+
+This is a quick and dirty library providing a relatively easy-to-use interface for driving the "Holtek HT16K33":http://www.holtek.com.tw/documents/10179/11842/HT16K33v120.pdf 16x8 LED driver IC. I wrote it for a project I was working on, and thought it worth chucking up onto Github in case anyone else finds it useful.
+
+h2. Quickref
+
+This library should be reasonably self-explanatory, and I’ve provided a few example sketches to get you started:
+
+* *DemoReel* is your standard ‘smily faces and random animation’ thing that most matrix libraries tend to come with
+* *OrientationDemo* demonstrates the library’s ability to quickly + easily flip the display vertically + horizontally in software with a minimum of fuss and bother
+* *ReversalDemo* demonstrates how you can recover from connecting your matrices backward =)
+
+The API commands are, in no particular order:
+
+- @init(uint8_t i2c_addr)@ := specifies the "I2C":https://en.wikipedia.org/wiki/I%C2%B2C address of the IC
+- @setBrightness(uint8_t b)@ := sets the brightness of the display (0–15)
+- @setBlink(uint8_t)@ := sets the blink rate of the display (see note below)
+- @resetOrientation()@ := resets the orientation of the display to the defaults
+- @reverse()@ := reverses the order of the two 8x8 sub-matrices (again, see note below)
+- @flipVertical()@ := flips the matrix data vertically before writing to the IC
+- @flipHorizontal()@ := flips the matrix data horizontally before writing to the IC
+- @clear()@ := clears the matrix completely†
+- @setPixel(uint8_t row, uint8_t col, uint8_t onoff)@ := sets the state of a single pixel. @onoff@ should be either 0 (off) or 1 (on)†
+- @setRow(uint8_t row, uint16_t value)@ := sets the content of an entire row (16 bits)†
+- @setColumn(uint8_t col, uint8_t value)@ := sets the content of an entire column (8 bits)†
+- @drawSprite16(Sprite16 data)@ := draws the @Sprite16@ onto the matrix at point (0, 0) (see below)†
+- @drawSprite16(Sprite16 data, uint8_t x, uint8_t y)@ := as above, but at point (x, y)†
+- @write()@ := writes the display buffer to the IC (updates the display)
+
+† note: none of these will write anything to the IC—you will still need to call @write()@.
+
+h3. About @Sprite16@
+
+@Sprite16@ is a class based on the venerable "Sprite library":http://wiring.org.co/reference/libraries/Sprite/index.html, but which has been built to allow a maximum sprite size of 16x8, compared to 8x8 in the original.
+
+In terms of creating sprites, Sprite16 is virtually identical to the original:
+
+pre. Sprite16 smile = Sprite16( 5, 5, 10, 10, 0, 17, 14 );
+
+p. However, one major difference is that Sprite16 _does not_ implement either the @read()@ or @write()@ methods present
+in the original, as it is unneeded for the purposes of this library.
+
+h3. Blink Rates
+
+For various reasons, blink rates are #define-d as a set of constants:
+
+- @HT16K33_BLINK_OFF@ := disable blinking (default)
+- @HT16K33_BLINK_1HZ@ := set blink rate to 1Hz
+- @HT16K33_BLINK_2HZ@ := set blink rate to 2Hz
+- @HT16K33_BLINK_0HZ5@ := set blink rate to 0.5Hz
+
+h3. Matrix reversal
+
+_This only really makes sense if you’re using a 16x8 matrix made of two discrete 8x8 matrixes. If you’re rolling it yourself or using a single 16x8, you may as well ignore this section._
+
+This library assumes that, if you’re using two 8x8 matrixes, you’ve wired them correctly with ROW0 on the left-hand edge of the left-most matrix, and ROW15 on the right-most edge, thus:
+
+pre. 
+ 0      7 8     15
++--------+--------+
+|        |        |
+|        |        |
+|        |        |
++--------+--------+
+
+p. However, just occasionally your concentration will slip and you’ll end up with something like this:
+
+pre. 
+ 8     15 0      7
++--------+--------+
+|        |        |
+|        |        |
+|        |        |
++--------+--------+
+
+p. Rather than having to rewire everything/rework your PCBs, you can just call @reverse()@, and the library will cover for you…
+
+_(no, this didn’t happen to me. I don’t know why you would think that /s)_
+
+h2. TODO
+
+It’d be really nice if this library supported the HT16K33’s keyscan functionality…
+
+h2. Caveats
+
+As mentioned at the start, I wrote this library for fun and to scratch a particular itch. I’m offering it to the world Because™, but I make no guarantee that it’s going to work 100% perfectly every time. By the same token, I’m not going to offer any kind of guarantee that I’ll touch this repo once I’ve made my first commit :)
+
+All of this means that while you’re free to use/modify/etc everything here with/without attribution, you do so at your own risk and I am not responsible for what you get up to: if it breaks/catches fire/gains sentience and steals your cat, that’s all on you =)
+(although I will accept sensible PRs if you find any particularly egregious issues…)
+
+That said, if you do do something particularly Nifty™ with this library, I’ve love to hear from you—I’m on Twitter "@jonpearse":https://twitter.com/jonpearse
+
+…
+
+Share and enjoy!
