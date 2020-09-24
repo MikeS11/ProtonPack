@@ -79,6 +79,11 @@ You are going to need to install the following libraries:
 * []() GBLEDPatternsJewel.h
 * []() BGSequence.h
 
+**Sound Files for the DFPlayer or Alternative Player**
+
+<a href="https://mega.nz/file/R5sWzCha#zm4DIskyvmF08JNp8MnOAEqCDmNe2MSCN6wtFMExKlU">Here are some sound files I found online or mixed myself</a>
+
+
 ### Wand Configuration
 
 <p align="center">
