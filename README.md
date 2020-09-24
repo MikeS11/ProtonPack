@@ -63,6 +63,7 @@ I want this to be a source for anyone to use to create their own proton pack kit
 * []() 1 - LED strip (Powercell)  (Amazon)
 * []() 1 - Adafruit Jewel - Wand Tip (WAs looking at the Pixie but there is a concern of its overhead requirements when working with normal WS2812B's, and they can not be chained together with WS2812B's) (Amazon, Digikey)
 * []() Pack of 24 awg stranded cable (Amazon) - To keep things clean you might want to look at ribbon cables or multi conductor cables. 
+* []() For circuit noise filtering, I would add a 1000uF electrolytic capacitors closes to the neopixels, and a 470 Ohm resistor before the first led of the strip (This is recommended by Adafruit as well). I would recommend one 1000uF capacitor for the wand to filter out noise from both the bargraph and the neopixels. (See Diagram)
 
 ### Prerequisites
 
