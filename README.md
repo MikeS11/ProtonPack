@@ -40,10 +40,12 @@
 </div>
 
 <p align="center">
-Original Prototype
-<img src="Images/ArduinoPrototype.jpg?raw=true" alt="Prototype" width="640" height="480"></p>
-Afterlife Cyclotron 40 segment LED ring
-<img src="Images/AfterLifeCyclotron.jpg?raw=true" alt="Prototype" width="640" height="480"></p>
+
+<img src="Images/ArduinoPrototype.jpg?raw=true" alt="Prototype" width="640" height="480">Original Prototype</p>
+<p align="center">
+<img src="Images/AfterLifeCyclotron.jpg?raw=true" alt="Prototype" width="504"  height="442">Afterlife Cyclotron 40 segment LED ring</p>
+
+
 I want this to be a source for anyone to use to create their own proton pack kits for as cheap as possible and still include all the features for a rumble motor, 2 firing mechanisms, all functioning LEDs in the wand, pack themes, full 28 segment bar graph, and an output for a vent kit.
 
 **Current Themes for the pack:**
