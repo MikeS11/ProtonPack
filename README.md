@@ -36,10 +36,14 @@
 
 <div align="center">
   <a href="https://www.youtube.com/watch?v=rJL5TYWQTRQ&feature=youtu.be"><img src="https://i9.ytimg.com/vi/rJL5TYWQTRQ/mq2.jpg?sqp=CPyUoowG&rs=AOn4CLBSpMu_vusId3IkFEvj6kjmnVH5UQ" alt="GhostKitty Proton Pack"></a>
+  
 </div>
 
 <p align="center">
+Original Prototype
 <img src="Images/ArduinoPrototype.jpg?raw=true" alt="Prototype" width="640" height="480"></p>
+Afterlife Cyclotron 40 segment LED ring
+<img src="Images/AfterLifeCyclotron.jpg?raw=true" alt="Prototype" width="640" height="480"></p>
 I want this to be a source for anyone to use to create their own proton pack kits for as cheap as possible and still include all the features for a rumble motor, 2 firing mechanisms, all functioning LEDs in the wand, pack themes, full 28 segment bar graph, and an output for a vent kit.
 
 **Current Themes for the pack:**
@@ -62,6 +66,7 @@ I want this to be a source for anyone to use to create their own proton pack kit
 * []() 1 - Pack of neopixels or equivalent WS2812B ( Vent and wand LEDs) (Amazon)
 * []() 1 - LED strip (Powercell)  (Amazon)
 * []() 1 - Adafruit Jewel - Wand Tip (WAs looking at the Pixie but there is a concern of its overhead requirements when working with normal WS2812B's, and they can not be chained together with WS2812B's) (Amazon, Digikey)
+* []() 1 - 40 Segment LED ring or LED strip (WS2812B's) - Afterlife Cyclotron LED
 * []() Pack of 24 awg stranded cable (Amazon) - To keep things clean you might want to look at ribbon cables or multi conductor cables. 
 * []() For circuit noise filtering, I would add a 1000uF electrolytic capacitors closes to the neopixels, and a 470 Ohm resistor before the first led of the strip (This is recommended by Adafruit as well). I would recommend one 1000uF capacitor for the wand to filter out noise from both the bargraph and the neopixels. (See Diagram)
 * []() If you are printing the PCB you will need a RJ45 Connector, 2.54mm JST Connectors, 2.54mm Dupont Connectors, 1 MP1584EN Buck Converter, 7805 Voltage regulator, 2 1k Ohm resistors, and some 0.1 uF and 0.33 uF ceramic capacitors. Additionally for the wand, 1000uF capacitor, a 1N4001 diode and a transistor.
