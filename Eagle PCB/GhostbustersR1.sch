@@ -15463,8 +15463,6 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="C4" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/4" package3d_urn="urn:adsk.eagle:package:5408/1" value="0.33uF"/>
 <part name="C5" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/4" package3d_urn="urn:adsk.eagle:package:5408/1" value="0.1uF"/>
 <part name="C6" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/4" package3d_urn="urn:adsk.eagle:package:5408/1" value="0.1uF"/>
-<part name="C7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="CPOL-US" device="TAP5-45" package3d_urn="urn:adsk.eagle:package:6240437/1" value="470uF"/>
-<part name="C8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="CPOL-US" device="TAP5-45" package3d_urn="urn:adsk.eagle:package:6240437/1" value="1000uF"/>
 <part name="D1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:6240344/1"/>
 <part name="AMP_PWR" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-02-PIN" device="-LONG-PAD"/>
 <part name="R3" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_US-" device="B64Y" package3d_urn="urn:adsk.eagle:package:22690/1"/>
@@ -15474,6 +15472,8 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="78MXXS" device="" package3d_urn="urn:adsk.eagle:package:30347/1"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="CPOL-US" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:6240508/1"/>
+<part name="C2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="CPOL-US" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:6240508/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -15569,14 +15569,6 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <attribute name="NAME" x="29.464" y="-25.019" size="1.778" layer="95"/>
 <attribute name="VALUE" x="29.464" y="-30.099" size="1.778" layer="96"/>
 </instance>
-<instance part="C7" gate="G$1" x="20.32" y="-27.94" smashed="yes" rot="R180">
-<attribute name="NAME" x="19.304" y="-28.575" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="19.304" y="-23.749" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="C8" gate="G$1" x="101.6" y="86.36" smashed="yes">
-<attribute name="NAME" x="102.616" y="86.995" size="1.778" layer="95"/>
-<attribute name="VALUE" x="102.616" y="82.169" size="1.778" layer="96"/>
-</instance>
 <instance part="D1" gate="1" x="10.16" y="-33.02" smashed="yes">
 <attribute name="NAME" x="12.7" y="-32.5374" size="1.778" layer="95"/>
 <attribute name="VALUE" x="12.7" y="-35.3314" size="1.778" layer="96"/>
@@ -15611,6 +15603,14 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 </instance>
 <instance part="GND3" gate="1" x="101.6" y="78.74" smashed="yes">
 <attribute name="VALUE" x="99.06" y="76.2" size="1.778" layer="96"/>
+</instance>
+<instance part="C1" gate="G$1" x="101.6" y="86.36" smashed="yes">
+<attribute name="NAME" x="102.616" y="86.995" size="1.778" layer="95"/>
+<attribute name="VALUE" x="102.616" y="82.169" size="1.778" layer="96"/>
+</instance>
+<instance part="C2" gate="G$1" x="20.32" y="-27.94" smashed="yes" rot="R180">
+<attribute name="NAME" x="19.304" y="-28.575" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="19.304" y="-23.749" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -15831,7 +15831,6 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <segment>
 <pinref part="D1" gate="1" pin="C"/>
 <wire x1="12.7" y1="-33.02" x2="20.32" y2="-33.02" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="+"/>
 <wire x1="20.32" y1="-33.02" x2="20.32" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="-33.02" x2="27.94" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="20.32" y="-33.02"/>
@@ -15848,9 +15847,10 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <wire x1="109.22" y1="83.82" x2="109.22" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="DFPLAYER" gate="G$1" pin="VCC"/>
 <wire x1="109.22" y1="76.2" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="+"/>
 <wire x1="109.22" y1="83.82" x2="101.6" y2="88.9" width="0.1524" layer="91"/>
 <junction x="109.22" y="83.82"/>
+<pinref part="C1" gate="G$1" pin="+"/>
+<pinref part="C2" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -15882,7 +15882,6 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="-2.54" y1="-20.32" x2="-25.4" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="-20.32" x2="2.54" y2="-22.86" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="-"/>
 <wire x1="20.32" y1="-22.86" x2="20.32" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="-20.32" x2="2.54" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="2.54" y="-20.32"/>
@@ -15915,6 +15914,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <wire x1="-2.54" y1="-40.64" x2="-2.54" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="-2.54" y="-20.32"/>
 <pinref part="IC1" gate="A" pin="GND"/>
+<pinref part="C2" gate="G$1" pin="-"/>
 </segment>
 <segment>
 <wire x1="2.54" y1="17.78" x2="2.54" y2="5.08" width="0.1524" layer="91"/>
@@ -15958,7 +15958,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="C8" gate="G$1" pin="-"/>
+<pinref part="C1" gate="G$1" pin="-"/>
 </segment>
 </net>
 <net name="VCC" class="0">
