@@ -35,7 +35,7 @@
 ## About The Project
 
 <div align="center">
-  <a href="https://www.youtube.com/watch?v=ds1rXlsiT8U"><img src="http://img.youtube.com/vi/ds1rXlsiT8U/0.jpg" alt="GhostKitty Proton Pack"></a>
+  <a href="https://www.youtube.com/watch?v=rJL5TYWQTRQ&feature=youtu.be"><img src="https://i9.ytimg.com/vi/rJL5TYWQTRQ/mq2.jpg?sqp=CPyUoowG&rs=AOn4CLBSpMu_vusId3IkFEvj6kjmnVH5UQ" alt="GhostKitty Proton Pack"></a>
 </div>
 
 <p align="center">
