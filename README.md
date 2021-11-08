@@ -35,15 +35,17 @@
 ## About The Project
 
 <div align="center">
-  <a href="https://www.youtube.com/watch?v=rJL5TYWQTRQ&feature=youtu.be"><img src="https://i9.ytimg.com/vi/rJL5TYWQTRQ/mq2.jpg?sqp=CPyUoowG&rs=AOn4CLBSpMu_vusId3IkFEvj6kjmnVH5UQ" alt="GhostKitty Proton Pack"></a>
+  <br /> YouTube Video
+  <a href="https://www.youtube.com/watch?v=rJL5TYWQTRQ&feature=youtu.be"><img src="https://i9.ytimg.com/vi/rJL5TYWQTRQ/mq2.jpg?sqp=CPyUoowG&rs=AOn4CLBSpMu_vusId3IkFEvj6kjmnVH5UQ" alt="GhostKitty Proton Pack"></a>  
   
 </div>
 
-<p align="center">
-
-<img src="Images/ArduinoPrototype.jpg?raw=true" alt="Prototype" width="640" height="480">Original Prototype</p>
-<p align="center">
-<img src="Images/AfterLifeCyclotron.jpg?raw=true" alt="Prototype" width="504"  height="442">Afterlife Cyclotron 40 segment LED ring</p>
+<div align="center">
+Original Prototype <br />
+<img src="Images/ArduinoPrototype.jpg?raw=true" alt="Prototype" width="640" height="480"></p>
+<div align="center">
+Afterlife Cyclotron 40 segment LED ring<br /> 
+<img src="Images/AfterLifeCyclotron.jpg?raw=true" alt="Prototype" width="504"  height="442"></p>
 
 
 I want this to be a source for anyone to use to create their own proton pack kits for as cheap as possible and still include all the features for a rumble motor, 2 firing mechanisms, all functioning LEDs in the wand, pack themes, full 28 segment bar graph, and an output for a vent kit.
