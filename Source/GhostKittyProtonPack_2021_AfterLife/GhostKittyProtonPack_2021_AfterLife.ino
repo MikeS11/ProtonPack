@@ -93,7 +93,7 @@ const int GunLEDEnd = 16;
 /******************************************************************************
     Initiate Adafruit LED NeoPixel libraries and custom GBLEDPattern Class
  ******************************************************************************/
-#include "FastLED.h"  
+#include "FastLED.h"
 #include <Adafruit_NeoPixel.h>
 #include "GBLEDPatterns.h"
 
@@ -194,7 +194,7 @@ void setup() {
   myDFPlayer.begin(mySoftwareSerial);
   myDFPlayer.normalMode();
   myDFPlayer.startDAC();
-  
+
   BarGraph.BGSeq();
 
   myDFPlayer.volume(30);
@@ -279,7 +279,7 @@ void loop()
         {
           case MOVIE:
             THEME = STATIS;
-             PackLEDs.setBrightness(10);
+            PackLEDs.setBrightness(10);
             PackLEDs.Cyclotron(PackLEDs.Color1, cycIdleRate[1], THEME);
             myDFPlayer.play(ThemeSWTrack);
             break;
@@ -432,7 +432,7 @@ void loop()
           {
             setWandLightState(OrangeHatLED, 1, 0); // Set gun button 2 LED white
             BarGraph.sequenceFire2(currentMillis);
-            digitalWrite(RUMBLE, HIGH); 
+            digitalWrite(RUMBLE, HIGH);
           }
           else if (fire == false && fire2 == true)
           {
@@ -532,8 +532,9 @@ void loop()
             {
               WANDLEDSTATUS = NORMAL;
               BarGraph.initiateVariables(ACTIVE);
-                 {
-                  PackLEDs.AL_Fire(false);
+              if (THEME == 1)
+              {
+                PackLEDs.AL_Fire(false);
                 PackLEDs.setBrightness(10);
               }
             }
