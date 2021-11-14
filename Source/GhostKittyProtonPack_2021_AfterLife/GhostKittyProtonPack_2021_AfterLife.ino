@@ -43,6 +43,7 @@ unsigned long  FireStasis = 13;
 unsigned long  FireSlime = 14;
 unsigned long  FireMeson = 15;
 unsigned long  FireChristmas = 21;
+unsigned long  FireAfterlife = 34;
 
 unsigned long  MovieTail = 4;
 unsigned long  StasisTail = 22;
@@ -57,6 +58,7 @@ unsigned long  IdleSlimeStart = 27;
 unsigned long  IdleSlimeLoop = 28;
 unsigned long  IdleMesonStart = 29;
 unsigned long  IdleMesonLoop = 30;
+unsigned long  IdleAfterlifeLoop = 35;
 
 unsigned long  clickTrack = 8;
 unsigned long  chargeTrack = 7;
@@ -68,6 +70,7 @@ unsigned long  warnStasis = 17;
 unsigned long  warnSlime = 18;
 unsigned long  warnMeson = 19;
 unsigned long  warnCrossStreams = 20;
+unsigned long  warnAfterlife = 16;
 
 
 unsigned long currenttrack = 1;
@@ -388,7 +391,25 @@ void loop()
           //          DFPlayerStart = true;
           //          DFPTrack = IdleMovieLoop;
           //          playType = 1;
-          myDFPlayer.loop(IdleMovieLoop);
+          switch (THEME) // MOVIE, STATIS, SLIME, MESON, CHRISTMAS
+          { 
+            case MOVIE:
+            myDFPlayer.loop(IdleMovieLoop);
+            break;
+            case STATIS:
+            myDFPlayer.loop(IdleAfterlifeLoop);
+            break;
+            case SLIME:
+            myDFPlayer.loop(IdleSlimeLoop);
+            break;
+            case MESON:
+            myDFPlayer.loop(IdleMesonLoop);
+            break;
+            case CHRISTMAS:
+            myDFPlayer.loop(IdleMovieLoop);
+            break;
+          }
+          
         }
         /********************************************************************************
                         Firing button is pushed, start firing sequence
@@ -994,7 +1015,7 @@ void PlaySoundTrack(int Track) //enum WandSLEDState { ALLOFF, WANDONLY, NORMAL, 
     case STATIS:
       if (Track == FIRING)
       {
-        myDFPlayer.loop(FireMovie);
+        myDFPlayer.loop(FireAfterlife);
       }
       else if (Track == FASTWARNING)
       {
@@ -1004,20 +1025,17 @@ void PlaySoundTrack(int Track) //enum WandSLEDState { ALLOFF, WANDONLY, NORMAL, 
         }
         else
         {
-          myDFPlayer.loop(warnMovie);
+          myDFPlayer.loop(warnAfterlife);
         }
 
       }
       else if (Track == NORMAL)
       {
-        //        DFPlayerStart = true;
-        //        DFPTrack = MovieTail;
-        //        playType = 0;
         myDFPlayer.play(MovieTail);
       }
       else if (Track == STREAMCROSS)
       {
-        myDFPlayer.play(FireCrossStreams);
+        myDFPlayer.play(FireAfterlife);
       }
       break;
     case SLIME:
