@@ -36,7 +36,7 @@
 
 <div align="center">
   YouTube Video<br /> 
-  <a href="https://www.youtube.com/watch?v=9ePM4p-J3tE"><img src="https://i9.ytimg.com/vi/rJL5TYWQTRQ/mq2.jpg?sqp=CPyUoowG&rs=AOn4CLBSpMu_vusId3IkFEvj6kjmnVH5UQ" alt="GhostKitty Proton Pack"></a>  
+  <a href="https://www.youtube.com/watch?v=9ePM4p-J3tE"><img src="https://img.youtube.com/vi/9ePM4p-J3tE/0.jpg" alt="GhostKitty Proton Pack"></a>  
   
 Original Prototype <br />
 <img src="Images/ArduinoPrototype.jpg?raw=true" alt="Prototype" width="640" height="480"></p>
