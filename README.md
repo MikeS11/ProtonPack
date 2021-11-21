@@ -49,7 +49,7 @@ I want this to be a source for anyone to use to create their own proton pack kit
 
 **Current Themes for the pack:**
 * []() Movie
-* []() Stasis
+* []() Stasis / Afterlife 
 * []() Slime
 * []() Meson
 * []() Christmas!
